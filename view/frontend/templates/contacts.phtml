@@ -1,0 +1,29 @@
+<h1> Post a Query: </h1>
+
+<form method="POST" action="<?php echo $this->getUrl('mycontact/index/post'); ?>" data-hasrequired="<?php echo __('* Required Fields') ?>" data-mage-init='{"validation":{}}'>
+
+<fieldset class="fieldset">
+        <div class="field note no-label"><?php echo __('Drop your query here we will get back to you.') ?></div>
+        <div class="field name required">
+            <label class="label" for="name"><span><?php echo __('Full Name') ?></span></label>
+            <div class="control">
+                <input name="name" id="name" title="<?php echo __('Full Name') ?>" value="" class="input-text" type="text" data-validate="{required:true}"/>
+            </div>
+        </div>
+        <div class="field email required">
+            <label class="label" for="email"><span><?php echo __('Email ID') ?></span></label>
+            <div class="control">
+                <input name="email" id="email" title="<?php echo __('Email') ?>" value="" class="input-text" type="email" data-validate="{required:true}"/>
+            </div>
+        </div>
+        <div class="actions-toolbar">
+	        <div class="primary">
+	            <button type="submit" title="<?php echo __('Submit') ?>" class="action submit primary">
+	                <span><?php echo __('Submit') ?></span>
+	            </button>
+	        </div>
+    	</div>
+</fieldset>
+	
+
+</form>
