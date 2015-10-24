@@ -1,0 +1,21 @@
+{
+  "name": "magevishwas/magento2-mycontact-extension",
+  "description": "A basic Magento 2 module with a Admin Grid and Frontend CRUD Operations.",
+  "type": "magento2-module",
+  "version": "dev-master",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Vishwas/Mycontact"
+      ]
+    ]
+  }
+}
