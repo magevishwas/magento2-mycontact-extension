@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Vishwas_Mycontact::mycontact" title="Vishwas's Modules" module="Vishwas_Mycontact" sortOrder="50" resource="Vishwas_Mycontact::mycontact"/>
+        <add id="Vishwas_Mycontact::manage_items" title="All Contacts" module="Vishwas_Mycontact" sortOrder="10" parent="Vishwas_Mycontact::mycontact" action="mycontact/contacts/" resource="Vishwas_Mycontact::mycontact"/>
+    </menu>
+</config>
