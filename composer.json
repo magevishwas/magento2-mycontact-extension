@@ -16,7 +16,15 @@
           "registration.php"
         ],
         "psr-4": {
-            "Vishwas\\Mycontact\\": ""
+            "Vishwas\\Mycontact\\": "app/code/Vishwas/Mycontact"
         }
   },
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Vishwas/Mycontact"
+      ]
+    ]
+  }
 }
